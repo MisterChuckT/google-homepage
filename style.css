@@ -1,0 +1,126 @@
+	body {
+		font-family:arial,sans-serif;
+		margin: 0px;
+		padding: 0px;
+   		text-align: center;
+	}
+	#wrapper {
+		width:100%;
+		margin:0px;
+	}
+	#header {
+		font-size: 12px;
+		height:180px;
+	}
+	#content {
+		margin-left:auto;
+		margin-right:auto;
+		width:878px;
+	}
+	#form {
+		text-align: center;
+	}
+	#footer {
+		background:#f1f1f1;
+		border-top: 1px solid #D6D7D8;
+		bottom:0; 
+		font-size: 13px;
+		height:40px; 
+		margin-left: 0px;
+		overflow: hidden;
+		position: absolute;    
+		width:100%;
+	}
+	#foot-left {
+   		float: left;
+   		height: 100%;
+   		position: relative;
+   		width: 400px;
+	}
+	#foot-left ul {
+		float: left;
+    	list-style-type: none;
+    	padding-left: 30px;
+    	padding-top: 10px;
+    	overflow: hidden;
+	}
+    #foot-left li {
+ 		display: inline-block;
+ 		text-align: left;
+ 		width: 90px;
+ 	}
+	#foot-right {
+   		float: right;
+   		height: 100%;
+   		position: relative;
+   		width: 400px;
+	}
+	ul {
+		float: right;
+    	list-style-type: none;
+    	margin: 0;
+    	padding-top: 10px;
+    	padding-right: 20px;
+    	overflow: hidden;
+	}
+    li {
+ 		float: left;
+	} 
+	.black { 
+ 		color : #3f3f3f; 
+ 		display: block;
+ 		text-decoration : none;
+ 		padding-top: 15px;
+ 		padding-right: 5px;
+ 		width: 50px;
+	}
+	.black:hover {
+		color: black;
+		text-decoration : underline;
+	}
+	.black:active {
+		color: black;
+		text-decoration: underline;
+	}
+	.grey { 
+ 		color : #696969; 
+ 		display: block;
+ 		padding-top: 3px;
+ 		text-decoration : none;
+ 		width: 70px;
+	}
+	.grey:hover {
+		color: #696969;
+		text-decoration: underline;
+	}
+	.grey:active {
+		color: #696969;
+		text-decoration: underline;
+	}
+	.display {
+    	display: block;
+    	margin-bottom: 25px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 10px;
+    }
+    .search {
+    	border: 1px solid #D6D7D8;
+    	border-radius: 0px;
+    	display: block;
+    	line-height: 27px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 555px;
+    }
+    .button {
+   		background-color: #F1F1F1;
+    	border: 1px solid #D6D7D8;
+    	font-weight: bold;
+   		height: 28px;
+   		margin-bottom: 15px;
+   		margin-left: 8px;
+   		margin-right: 8px;
+   		margin-top: 15px;
+   		width: 110px;
+	}
